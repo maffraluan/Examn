@@ -20,3 +20,80 @@
 .App-link {
   color: #09d3ac;
 }
+.text-manipulation {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-right: 10px;
+  padding: 0;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+
+}
+
+.p-manipulation {  
+  margin-left: 15px;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+.api-manipulation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* MEDIA QUERIES 320px  */
+
+@media (min-width: 320px ){
+  .text-h3{
+    display: block;
+    font-size: 15px;
+    flex-direction: column;
+    padding: 0;
+
+  }
+}
+
+@media (min-width: 320px ){
+  .text-h2{
+    font-size: 18px;
+    flex-direction: row;
+    padding: 0;
+
+  }
+}
+
+@media (min-width: 320px){
+  .p-manipulation {  
+    margin-left: 50px;
+
+  }
+}
+
+@media (min-width: 320px){
+  .api-manipulation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+
+/* 720px /////////////qqq */
+
+
+@media (min-width: 720px){
+  .api-manipulation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px auto;
+    justify-content: space-around;
+  }
+}
